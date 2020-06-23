@@ -1,0 +1,12 @@
+n=int(input("give number"))
+flag=1
+if n==1:
+    print("both can be considered")
+    for i in range(2,n):
+        if n%i==0:
+            flag=0
+            break
+        if flag==1:
+            print("its prime")
+        else:
+            print("its not prime")

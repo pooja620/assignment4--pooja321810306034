@@ -1,0 +1,4 @@
+c=input("enter ur string")
+i=len(c)
+r=c[i::-1]
+print(r)
